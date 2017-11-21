@@ -3,6 +3,9 @@
 # options: --reliableTestMinRuns 5 --reliableDays 7 --unreliableTestMinRuns 20 --unreliableDays 28
 # --testFailRates 0.1 0.3 --taskFailRates 0.1 0.3 --variantFailRates 0.2 0.4 --distroFailRates 0.2
 # 0.4.
+#
+# This sentence exists only to have this version of etc/test_lifecycle.yml associated with the
+# version of references.yml that refers to the mongodb-mongo.v3.6 Evergreen project.
 selector:
   js_test:
     jstests/multiVersion/set_feature_compatibility_version.js:
